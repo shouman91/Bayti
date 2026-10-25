@@ -1,0 +1,43 @@
+{
+  "job_id": "BAYTI-EVAL-20261025",
+  "date": "2026-10-25",
+  "timezone": "Asia/Amman",
+  "defect_id": "QA-002",
+  "status": "resolved_with_explicit_human_visual_review",
+  "reviewed_artifact": "review-cut.mp4, private local artifact not published",
+  "artifact_sha256": "a01b948e22332af02908c6b6fce7ccb768837ea701b95245863b0da8c4200912",
+  "duration_s": 26.7,
+  "width": 720,
+  "height": 1280,
+  "fps": 30,
+  "audio_tracks": 0,
+  "permitted_viewer": "native Windows Media Player",
+  "reviewer_type": "human user in active conversation",
+  "human_review": {
+    "complete_watch_confirmed": true,
+    "text_readability_acceptable": true,
+    "product_motion_acceptable": true,
+    "ending_acceptable": true
+  },
+  "independent_qa_rechecked": [
+    "artifact SHA256",
+    "ffprobe metadata",
+    "original skill acceptance requirement",
+    "human review evidence"
+  ],
+  "ai_continuous_visual_watch": false,
+  "native_screenshot_capture_working": false,
+  "local_acceptance_counts": {
+    "pass": 22,
+    "revise": 0,
+    "blocked": 0
+  },
+  "prior_local_acceptance_counts": {
+    "pass": 21,
+    "revise": 1,
+    "blocked": 0
+  },
+  "original_rejected_browser_local_file_route_retried": false,
+  "scope": "Local agency workflow acceptance with explicit human visual QA; not autonomous AI perception, live publishing approval, model identity confirmation or rights clearance",
+  "private_evidence_not_uploaded": true
+}

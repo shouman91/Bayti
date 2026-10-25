@@ -2,12 +2,12 @@
   "job_id": "BAYTI-EVAL-20261025",
   "date": "2026-10-25",
   "timezone": "Asia/Amman",
-  "scope": "local independent department execution and QA; original media and full logs stay private",
+  "scope": "local workflow acceptance with explicit human-confirmed editor visual review; not live deployment or autonomous AI perception",
   "all_22_executed_with_concrete_outputs": true,
-  "all_22_full_acceptance": false,
+  "all_22_full_acceptance": true,
   "counts": {
-    "pass": 21,
-    "revise": 1,
+    "pass": 22,
+    "revise": 0,
     "blocked": 0
   },
   "core_unit_tests_passed": 40,
@@ -304,7 +304,7 @@
       "primary_skill": "bayti-video-delivery",
       "skill_path": ".agents/skills/bayti-video-delivery/SKILL.md",
       "knowledge_path": "knowledge/roles/editor.md",
-      "verdict": "revise",
+      "verdict": "pass",
       "next_recipients": [
         "qa"
       ],
@@ -329,7 +329,8 @@
           "sha256": "8179a5bebeb9d3f292d757263a6112704bc243bf84aa22d208be5ee3872e9e5f",
           "bytes": 3642
         }
-      ]
+      ],
+      "visual_review_basis": "human user full-watch confirmation + independent QA verification of artifact and evidence"
     },
     {
       "role": "designer",
@@ -681,18 +682,18 @@
       "example_artifacts": [
         {
           "local_path_not_published": "private/evaluation/run1/qa/acceptance-report.md",
-          "sha256": "e538c2b07e34d3a2e9f68bf5169dba0fee829ca6d86044ea735a82d0c014cf81",
-          "bytes": 12566
+          "sha256": "12238918e8c9ac31ac4e2e0097803b33b6073e916fb1f9a00348391a5645223c",
+          "bytes": 15654
         },
         {
           "local_path_not_published": "private/evaluation/run1/qa/role-scorecard.json",
-          "sha256": "1276f5cbc0fcd2cd6a9c76dd8368f05936dd62cb0fe262caf43e04e364048593",
-          "bytes": 32765
+          "sha256": "852784d06ff3726703a70e5436762c6a0675e3c510d404e7ea929fe939cc20a9",
+          "bytes": 38126
         },
         {
           "local_path_not_published": "private/evaluation/run1/qa/defects.json",
-          "sha256": "143ef8502ec3463bc47771760a0e202cdb4894200fab2c7afeb2cb324664a587",
-          "bytes": 5676
+          "sha256": "67a5660cfb38c839d750321d45b5b9b6e9372a5295588aa303efb4309a18eaa3",
+          "bytes": 8580
         },
         {
           "local_path_not_published": "private/evaluation/run1/qa/independent-checks.json",
@@ -706,5 +707,13 @@
         }
       ]
     }
-  ]
+  ],
+  "human_review_used": true,
+  "ai_continuous_visual_watch": false,
+  "previous_counts": {
+    "pass": 21,
+    "revise": 1,
+    "blocked": 0
+  },
+  "editor_followup": "tests/evidence/editor-playback-followup-2026-10-25.json"
 }
