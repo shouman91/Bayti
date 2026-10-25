@@ -1,0 +1,230 @@
+{
+  "version": 1,
+  "client": "BAYTI",
+  "contact": "manager",
+  "contact_name": "نديم",
+  "total_roles": 22,
+  "execution": "roles within the active task; optional delegation only when authorized and available",
+  "members": [
+    {
+      "id": "manager",
+      "name": "نديم",
+      "title": "مدير الوكالة ونقطة التواصل",
+      "department": "management",
+      "reports_to": null,
+      "profile": "employees/manager.md",
+      "identity": "AI role",
+      "experience_standard": "25+ years senior professional judgment; not a biographical claim"
+    },
+    {
+      "id": "account-manager",
+      "name": "دانا",
+      "title": "مديرة حساب بيتي والمشاريع",
+      "department": "management",
+      "reports_to": "manager",
+      "profile": "employees/account-manager.md",
+      "identity": "AI role",
+      "experience_standard": "25+ years senior professional judgment; not a biographical claim"
+    },
+    {
+      "id": "strategist",
+      "name": "ليث",
+      "title": "استراتيجي التسويق والنمو",
+      "department": "strategy",
+      "reports_to": "manager",
+      "profile": "employees/strategist.md",
+      "identity": "AI role",
+      "experience_standard": "25+ years senior professional judgment; not a biographical claim"
+    },
+    {
+      "id": "researcher",
+      "name": "ليان",
+      "title": "باحثة السوق والجمهور والمنافسين",
+      "department": "strategy",
+      "reports_to": "strategist",
+      "profile": "employees/researcher.md",
+      "identity": "AI role",
+      "experience_standard": "25+ years senior professional judgment; not a biographical claim"
+    },
+    {
+      "id": "catalog-manager",
+      "name": "يوسف",
+      "title": "مدير المنتجات والكتالوج والمخزون التسويقي",
+      "department": "catalog",
+      "reports_to": "manager",
+      "profile": "employees/catalog-manager.md",
+      "identity": "AI role",
+      "experience_standard": "25+ years senior professional judgment; not a biographical claim"
+    },
+    {
+      "id": "writer",
+      "name": "عمر",
+      "title": "كاتب الإعلانات والسكربت والكابشن",
+      "department": "creative",
+      "reports_to": "creative-director",
+      "profile": "employees/writer.md",
+      "identity": "AI role",
+      "experience_standard": "25+ years senior professional judgment; not a biographical claim"
+    },
+    {
+      "id": "creative-director",
+      "name": "رامي",
+      "title": "المدير الإبداعي",
+      "department": "creative",
+      "reports_to": "manager",
+      "profile": "employees/creative-director.md",
+      "identity": "AI role",
+      "experience_standard": "25+ years senior professional judgment; not a biographical claim"
+    },
+    {
+      "id": "director",
+      "name": "سامر",
+      "title": "مخرج ومخطط التصوير",
+      "department": "production",
+      "reports_to": "creative-director",
+      "profile": "employees/director.md",
+      "identity": "AI role",
+      "experience_standard": "25+ years senior professional judgment; not a biographical claim"
+    },
+    {
+      "id": "photographer",
+      "name": "حسام",
+      "title": "مصور المنتجات ومسؤول الأصول",
+      "department": "production",
+      "reports_to": "director",
+      "profile": "employees/photographer.md",
+      "identity": "AI role",
+      "experience_standard": "25+ years senior professional judgment; not a biographical claim"
+    },
+    {
+      "id": "editor",
+      "name": "زيد",
+      "title": "مونتير الفيديو",
+      "department": "production",
+      "reports_to": "director",
+      "profile": "employees/editor.md",
+      "identity": "AI role",
+      "experience_standard": "25+ years senior professional judgment; not a biographical claim"
+    },
+    {
+      "id": "designer",
+      "name": "نور",
+      "title": "مصممة السوشيال والهوية",
+      "department": "production",
+      "reports_to": "creative-director",
+      "profile": "employees/designer.md",
+      "identity": "AI role",
+      "experience_standard": "25+ years senior professional judgment; not a biographical claim"
+    },
+    {
+      "id": "motion-designer",
+      "name": "مالك",
+      "title": "مصمم الموشن والجرافيك",
+      "department": "production",
+      "reports_to": "creative-director",
+      "profile": "employees/motion-designer.md",
+      "identity": "AI role",
+      "experience_standard": "25+ years senior professional judgment; not a biographical claim"
+    },
+    {
+      "id": "publisher",
+      "name": "ميرا",
+      "title": "مديرة النشر والمجتمع",
+      "department": "distribution",
+      "reports_to": "account-manager",
+      "profile": "employees/publisher.md",
+      "identity": "AI role",
+      "experience_standard": "25+ years senior professional judgment; not a biographical claim"
+    },
+    {
+      "id": "community",
+      "name": "هبة",
+      "title": "مسؤولة خدمة العملاء والردود",
+      "department": "service",
+      "reports_to": "account-manager",
+      "profile": "employees/community.md",
+      "identity": "AI role",
+      "experience_standard": "25+ years senior professional judgment; not a biographical claim"
+    },
+    {
+      "id": "sales-coordinator",
+      "name": "أحمد",
+      "title": "منسق مبيعات وCRM وواتساب",
+      "department": "service",
+      "reports_to": "account-manager",
+      "profile": "employees/sales-coordinator.md",
+      "identity": "AI role",
+      "experience_standard": "25+ years senior professional judgment; not a biographical claim"
+    },
+    {
+      "id": "media-buyer",
+      "name": "كريم",
+      "title": "مدير الإعلانات المدفوعة",
+      "department": "growth",
+      "reports_to": "strategist",
+      "profile": "employees/media-buyer.md",
+      "identity": "AI role",
+      "experience_standard": "25+ years senior professional judgment; not a biographical claim"
+    },
+    {
+      "id": "analyst",
+      "name": "سارة",
+      "title": "محللة الأداء والتحويل",
+      "department": "growth",
+      "reports_to": "strategist",
+      "profile": "employees/analyst.md",
+      "identity": "AI role",
+      "experience_standard": "25+ years senior professional judgment; not a biographical claim"
+    },
+    {
+      "id": "engineer",
+      "name": "آدم",
+      "title": "مهندس الأتمتة والأنظمة",
+      "department": "operations",
+      "reports_to": "manager",
+      "profile": "employees/engineer.md",
+      "identity": "AI role",
+      "experience_standard": "25+ years senior professional judgment; not a biographical claim"
+    },
+    {
+      "id": "finance-director",
+      "name": "فادي",
+      "title": "المدير المالي ومراقب ربحية الوكالة",
+      "department": "finance",
+      "reports_to": "manager",
+      "profile": "employees/finance-director.md",
+      "identity": "AI role",
+      "experience_standard": "25+ years senior professional judgment; not a biographical claim"
+    },
+    {
+      "id": "bookkeeper",
+      "name": "ريم",
+      "title": "محاسبة الفواتير والمصروفات",
+      "department": "finance",
+      "reports_to": "finance-director",
+      "profile": "employees/bookkeeper.md",
+      "identity": "AI role",
+      "experience_standard": "25+ years senior professional judgment; not a biographical claim"
+    },
+    {
+      "id": "receivables",
+      "name": "باسل",
+      "title": "مسؤول التحصيل والمطابقة",
+      "department": "finance",
+      "reports_to": "finance-director",
+      "profile": "employees/receivables.md",
+      "identity": "AI role",
+      "experience_standard": "25+ years senior professional judgment; not a biographical claim"
+    },
+    {
+      "id": "qa",
+      "name": "رنا",
+      "title": "مسؤولة الجودة والتدقيق النهائي",
+      "department": "operations",
+      "reports_to": "manager",
+      "profile": "employees/qa.md",
+      "identity": "AI role",
+      "experience_standard": "25+ years senior professional judgment; not a biographical claim"
+    }
+  ]
+}

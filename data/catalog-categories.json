@@ -1,0 +1,66 @@
+{
+  "source_pages": 164,
+  "status": "navigation_only_confirm_boundaries_before_use",
+  "categories": [
+    {
+      "id": "kitchen",
+      "label": "إكسسوارات المطابخ",
+      "pages_hint": "6-43"
+    },
+    {
+      "id": "handles",
+      "label": "مقابض الخزائن",
+      "pages_hint": "44-65"
+    },
+    {
+      "id": "hinges",
+      "label": "الفصالات",
+      "pages_hint": "66-71"
+    },
+    {
+      "id": "coffee",
+      "label": "ماكينات القهوة",
+      "pages_hint": "72-74"
+    },
+    {
+      "id": "closet",
+      "label": "حلول غرف النوم والكلوزيت",
+      "pages_hint": "76-92"
+    },
+    {
+      "id": "laundry",
+      "label": "حلول الغسيل",
+      "pages_hint": "93-99"
+    },
+    {
+      "id": "beds",
+      "label": "تخوت بلت إن",
+      "pages_hint": "100-102"
+    },
+    {
+      "id": "drawers",
+      "label": "أنظمة الجوارير",
+      "pages_hint": "103-110"
+    },
+    {
+      "id": "doors",
+      "label": "الأبواب السحاب والدفات المخفية",
+      "pages_hint": "112-128"
+    },
+    {
+      "id": "tables",
+      "label": "الطاولات المخفية",
+      "pages_hint": "129-138"
+    },
+    {
+      "id": "smart",
+      "label": "الإكسسوارات الذكية",
+      "pages_hint": "139-150"
+    },
+    {
+      "id": "assembly",
+      "label": "التجميع والإضاءة",
+      "pages_hint": "151-162"
+    }
+  ]
+}

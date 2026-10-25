@@ -1,0 +1,64 @@
+{
+  "skills": [
+    {
+      "name": "bayti-team",
+      "path": ".agents/skills/bayti-team/SKILL.md",
+      "roles": [
+        "manager",
+        "account-manager",
+        "qa",
+        "engineer"
+      ]
+    },
+    {
+      "name": "bayti-catalog-content",
+      "path": ".agents/skills/bayti-catalog-content/SKILL.md",
+      "roles": [
+        "catalog-manager",
+        "researcher",
+        "strategist",
+        "writer"
+      ]
+    },
+    {
+      "name": "bayti-production",
+      "path": ".agents/skills/bayti-production/SKILL.md",
+      "roles": [
+        "creative-director",
+        "director",
+        "photographer",
+        "editor",
+        "designer",
+        "motion-designer"
+      ]
+    },
+    {
+      "name": "bayti-growth",
+      "path": ".agents/skills/bayti-growth/SKILL.md",
+      "roles": [
+        "strategist",
+        "researcher",
+        "media-buyer",
+        "analyst"
+      ]
+    },
+    {
+      "name": "bayti-customer-ops",
+      "path": ".agents/skills/bayti-customer-ops/SKILL.md",
+      "roles": [
+        "publisher",
+        "community",
+        "sales-coordinator"
+      ]
+    },
+    {
+      "name": "bayti-finance",
+      "path": ".agents/skills/bayti-finance/SKILL.md",
+      "roles": [
+        "finance-director",
+        "bookkeeper",
+        "receivables"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "as_of": "2026-10-25",
+  "client": "BAYTI",
+  "service_provider": null,
+  "monthly_agency_retainer": {
+    "amount": "450.00",
+    "currency": "USD",
+    "basis": "one agency fee per service month",
+    "status": "confirmed_by_user"
+  },
+  "first_service_period": null,
+  "due_date_policy": null,
+  "tax_treatment": "unconfirmed",
+  "paid_status": "unknown",
+  "deliverable_quantities": "not yet agreed",
+  "ad_budget": "separate authorization; not inferred from retainer",
+  "tool_and_production_costs": "treatment not yet agreed",
+  "automatic_billing": false,
+  "live_integrations_verified": false
+}
