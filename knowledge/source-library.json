@@ -1,0 +1,94 @@
+{
+  "reviewed_at": "2026-10-25",
+  "timezone": "Asia/Amman",
+  "sources": [
+    {
+      "id": "BAYTI-CATALOG",
+      "title": "كتالوج بيتي 2026",
+      "location": "local catalog reviewed 2026-10-25",
+      "use": "164 pages; source facts only; stock and price separate",
+      "access": "local_user_source",
+      "local_locator": "private/source-locations.json",
+      "local_locator_key": "catalog_pdf"
+    },
+    {
+      "id": "BAYTI-BRAND",
+      "title": "دليل هوية بيتي",
+      "location": "local Brand Guidelines reviewed 2026-10-25",
+      "use": "Cairo/Montserrat, HEX reference, original logo",
+      "access": "local_user_source",
+      "local_locator": "private/source-locations.json",
+      "local_locator_key": "brand_guidelines_pdf"
+    },
+    {
+      "id": "BAYTI-CONTEXT",
+      "title": "سياق العميل",
+      "location": "knowledge/bayti-brief.md",
+      "use": "User requirements distinguished from earlier assistant suggestions",
+      "access": "repository_reference"
+    },
+    {
+      "id": "BAYTI-AGREEMENT",
+      "title": "اتفاق الأتعاب المؤكد",
+      "location": "knowledge/operating-agreement.json",
+      "use": "450 USD monthly agency fee; tax, due date and period unknown",
+      "access": "user_confirmed"
+    },
+    {
+      "id": "OPENAI-EVAL",
+      "title": "Testing Agent Skills Systematically with Evals",
+      "location": "https://developers.openai.com/blog/eval-skills",
+      "use": "Use task run, actual artifacts, observable checks and explicit limits",
+      "access": "opened"
+    },
+    {
+      "id": "OPENAI-SKILLS",
+      "title": "Build skills",
+      "location": "https://learn.chatgpt.com/docs/build-skills",
+      "use": "Scoped workflows and progressive reading; file validation is not behavioral proof",
+      "access": "opened"
+    },
+    {
+      "id": "WHATSAPP-POLICY",
+      "title": "WhatsApp Business Messaging Policy",
+      "location": "https://whatsappbusiness.com/policy/",
+      "use": "Permission and opt-out handling; recheck before live outbound operation",
+      "access": "opened"
+    },
+    {
+      "id": "WCAG-CONTRAST",
+      "title": "Understanding SC1.4.3 Contrast",
+      "location": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+      "use": "Internal readability target; not a certification for video",
+      "access": "opened"
+    },
+    {
+      "id": "GA-ATTRIBUTION",
+      "title": "Traffic source dimensions and tagging",
+      "location": "https://support.google.com/analytics/answer/11242870?hl=en",
+      "use": "Separate source, medium and campaign; tagging is not proof of a sale or GA connection",
+      "access": "opened"
+    },
+    {
+      "id": "FFMPEG",
+      "title": "FFmpeg documentation",
+      "location": "https://ffmpeg.org/ffmpeg.html",
+      "use": "Input/output stream selection and reproducible transforms; check tool availability",
+      "access": "opened"
+    },
+    {
+      "id": "PY-DECIMAL",
+      "title": "Python decimal documentation",
+      "location": "https://docs.python.org/3/library/decimal.html",
+      "use": "Decimal amounts; validate finite values/currency; not accounting or tax advice",
+      "access": "opened"
+    },
+    {
+      "id": "META-INSIGHTS",
+      "title": "Instagram Insights API",
+      "location": "https://developers.facebook.com/docs/instagram-platform/insights/",
+      "use": "Read attempt returned 429; not treated as verified metric schema",
+      "access": "unavailable_429"
+    }
+  ]
+}

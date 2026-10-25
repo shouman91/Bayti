@@ -1,4 +1,7 @@
 {
+  "version": 2,
+  "role_skills": 22,
+  "coordination_skills": 6,
   "skills": [
     {
       "name": "bayti-team",
@@ -58,6 +61,527 @@
         "finance-director",
         "bookkeeper",
         "receivables"
+      ]
+    },
+    {
+      "name": "bayti-agency-lead",
+      "path": ".agents/skills/bayti-agency-lead/SKILL.md",
+      "roles": [
+        "manager"
+      ],
+      "knowledge": [
+        "knowledge/roles/manager.md"
+      ],
+      "outputs": [
+        "job-brief.md",
+        "decisions.json",
+        "final-delivery.md"
+      ],
+      "reviewer": "qa",
+      "source_ids": [
+        "OPENAI-EVAL",
+        "BAYTI-CONTEXT"
+      ],
+      "handoff_to": [
+        "account-manager"
+      ]
+    },
+    {
+      "name": "bayti-account-planning",
+      "path": ".agents/skills/bayti-account-planning/SKILL.md",
+      "roles": [
+        "account-manager"
+      ],
+      "knowledge": [
+        "knowledge/roles/account-manager.md"
+      ],
+      "outputs": [
+        "task-board.csv",
+        "scope-and-capacity.md",
+        "change-log.md"
+      ],
+      "reviewer": "manager",
+      "source_ids": [
+        "BAYTI-CONTEXT"
+      ],
+      "handoff_to": [
+        "researcher",
+        "catalog-manager",
+        "strategist"
+      ]
+    },
+    {
+      "name": "bayti-growth-strategy",
+      "path": ".agents/skills/bayti-growth-strategy/SKILL.md",
+      "roles": [
+        "strategist"
+      ],
+      "knowledge": [
+        "knowledge/roles/strategist.md"
+      ],
+      "outputs": [
+        "strategy.md",
+        "experiment.json"
+      ],
+      "reviewer": "manager",
+      "source_ids": [
+        "GA-ATTRIBUTION",
+        "BAYTI-CONTEXT"
+      ],
+      "handoff_to": [
+        "writer",
+        "creative-director",
+        "media-buyer"
+      ]
+    },
+    {
+      "name": "bayti-source-research",
+      "path": ".agents/skills/bayti-source-research/SKILL.md",
+      "roles": [
+        "researcher"
+      ],
+      "knowledge": [
+        "knowledge/roles/researcher.md"
+      ],
+      "outputs": [
+        "claims.csv",
+        "research-handoff.md"
+      ],
+      "reviewer": "catalog-manager",
+      "source_ids": [
+        "BAYTI-CATALOG",
+        "BAYTI-CONTEXT"
+      ],
+      "handoff_to": [
+        "catalog-manager",
+        "strategist"
+      ]
+    },
+    {
+      "name": "bayti-product-verification",
+      "path": ".agents/skills/bayti-product-verification/SKILL.md",
+      "roles": [
+        "catalog-manager"
+      ],
+      "knowledge": [
+        "knowledge/roles/catalog-manager.md"
+      ],
+      "outputs": [
+        "product-card.json",
+        "product-card.md",
+        "unverified-claims.md"
+      ],
+      "reviewer": "qa",
+      "source_ids": [
+        "BAYTI-CATALOG"
+      ],
+      "handoff_to": [
+        "writer",
+        "sales-coordinator"
+      ]
+    },
+    {
+      "name": "bayti-performance-copy",
+      "path": ".agents/skills/bayti-performance-copy/SKILL.md",
+      "roles": [
+        "writer"
+      ],
+      "knowledge": [
+        "knowledge/roles/writer.md"
+      ],
+      "outputs": [
+        "script.md",
+        "caption.md",
+        "claim-map.json"
+      ],
+      "reviewer": "creative-director",
+      "source_ids": [
+        "BAYTI-CATALOG",
+        "BAYTI-BRAND"
+      ],
+      "handoff_to": [
+        "creative-director",
+        "director",
+        "designer",
+        "community"
+      ]
+    },
+    {
+      "name": "bayti-creative-direction",
+      "path": ".agents/skills/bayti-creative-direction/SKILL.md",
+      "roles": [
+        "creative-director"
+      ],
+      "knowledge": [
+        "knowledge/roles/creative-director.md"
+      ],
+      "outputs": [
+        "creative-treatment.md",
+        "creative-review.md"
+      ],
+      "reviewer": "qa",
+      "source_ids": [
+        "BAYTI-BRAND"
+      ],
+      "handoff_to": [
+        "writer",
+        "director",
+        "editor",
+        "designer",
+        "motion-designer"
+      ]
+    },
+    {
+      "name": "bayti-shoot-planning",
+      "path": ".agents/skills/bayti-shoot-planning/SKILL.md",
+      "roles": [
+        "director"
+      ],
+      "knowledge": [
+        "knowledge/roles/director.md"
+      ],
+      "outputs": [
+        "shot-list.csv",
+        "presenter-notes.md",
+        "edit-map.json"
+      ],
+      "reviewer": "creative-director",
+      "source_ids": [
+        "BAYTI-CATALOG",
+        "BAYTI-BRAND"
+      ],
+      "handoff_to": [
+        "photographer",
+        "editor"
+      ]
+    },
+    {
+      "name": "bayti-asset-preflight",
+      "path": ".agents/skills/bayti-asset-preflight/SKILL.md",
+      "roles": [
+        "photographer"
+      ],
+      "knowledge": [
+        "knowledge/roles/photographer.md"
+      ],
+      "outputs": [
+        "asset-manifest.json",
+        "contact-sheet.jpg",
+        "asset-review.md"
+      ],
+      "reviewer": "director",
+      "source_ids": [
+        "BAYTI-BRAND",
+        "FFMPEG"
+      ],
+      "handoff_to": [
+        "catalog-manager",
+        "editor",
+        "designer"
+      ]
+    },
+    {
+      "name": "bayti-video-delivery",
+      "path": ".agents/skills/bayti-video-delivery/SKILL.md",
+      "roles": [
+        "editor"
+      ],
+      "knowledge": [
+        "knowledge/roles/editor.md"
+      ],
+      "outputs": [
+        "review-cut.mp4",
+        "edit-decisions.json",
+        "export-probe.json",
+        "video-qa.md"
+      ],
+      "reviewer": "qa",
+      "source_ids": [
+        "FFMPEG",
+        "BAYTI-BRAND"
+      ],
+      "handoff_to": [
+        "qa",
+        "publisher"
+      ]
+    },
+    {
+      "name": "bayti-social-design",
+      "path": ".agents/skills/bayti-social-design/SKILL.md",
+      "roles": [
+        "designer"
+      ],
+      "knowledge": [
+        "knowledge/roles/designer.md"
+      ],
+      "outputs": [
+        "social-source.html",
+        "social-preview.png",
+        "design-qa.md"
+      ],
+      "reviewer": "creative-director",
+      "source_ids": [
+        "WCAG-CONTRAST",
+        "BAYTI-BRAND"
+      ],
+      "handoff_to": [
+        "qa",
+        "publisher"
+      ]
+    },
+    {
+      "name": "bayti-product-motion",
+      "path": ".agents/skills/bayti-product-motion/SKILL.md",
+      "roles": [
+        "motion-designer"
+      ],
+      "knowledge": [
+        "knowledge/roles/motion-designer.md"
+      ],
+      "outputs": [
+        "motion-source.html",
+        "motion-cues.json",
+        "motion-preview.png"
+      ],
+      "reviewer": "editor",
+      "source_ids": [
+        "BAYTI-BRAND"
+      ],
+      "handoff_to": [
+        "editor"
+      ]
+    },
+    {
+      "name": "bayti-publishing-pack",
+      "path": ".agents/skills/bayti-publishing-pack/SKILL.md",
+      "roles": [
+        "publisher"
+      ],
+      "knowledge": [
+        "knowledge/roles/publisher.md"
+      ],
+      "outputs": [
+        "publishing-pack.md",
+        "platform-posts.json",
+        "publishing-readiness.json"
+      ],
+      "reviewer": "qa",
+      "source_ids": [
+        "BAYTI-CONTEXT",
+        "WHATSAPP-POLICY"
+      ],
+      "handoff_to": [
+        "manager",
+        "analyst"
+      ]
+    },
+    {
+      "name": "bayti-customer-replies",
+      "path": ".agents/skills/bayti-customer-replies/SKILL.md",
+      "roles": [
+        "community"
+      ],
+      "knowledge": [
+        "knowledge/roles/community.md"
+      ],
+      "outputs": [
+        "reply-drafts.md",
+        "objections.csv",
+        "customer-handoff.json"
+      ],
+      "reviewer": "account-manager",
+      "source_ids": [
+        "WHATSAPP-POLICY",
+        "BAYTI-CATALOG"
+      ],
+      "handoff_to": [
+        "sales-coordinator"
+      ]
+    },
+    {
+      "name": "bayti-crm-followup",
+      "path": ".agents/skills/bayti-crm-followup/SKILL.md",
+      "roles": [
+        "sales-coordinator"
+      ],
+      "knowledge": [
+        "knowledge/roles/sales-coordinator.md"
+      ],
+      "outputs": [
+        "crm-clean.json",
+        "followup-queue.csv",
+        "sales-handoff.md"
+      ],
+      "reviewer": "analyst",
+      "source_ids": [
+        "WHATSAPP-POLICY",
+        "GA-ATTRIBUTION"
+      ],
+      "handoff_to": [
+        "analyst",
+        "bookkeeper"
+      ]
+    },
+    {
+      "name": "bayti-paid-media-operations",
+      "path": ".agents/skills/bayti-paid-media-operations/SKILL.md",
+      "roles": [
+        "media-buyer"
+      ],
+      "knowledge": [
+        "knowledge/roles/media-buyer.md"
+      ],
+      "outputs": [
+        "paid-media-plan.md",
+        "campaign-audit.json",
+        "budget-check.json"
+      ],
+      "reviewer": "analyst",
+      "source_ids": [
+        "GA-ATTRIBUTION",
+        "BAYTI-CONTEXT"
+      ],
+      "handoff_to": [
+        "analyst",
+        "manager"
+      ]
+    },
+    {
+      "name": "bayti-performance-analysis",
+      "path": ".agents/skills/bayti-performance-analysis/SKILL.md",
+      "roles": [
+        "analyst"
+      ],
+      "knowledge": [
+        "knowledge/roles/analyst.md"
+      ],
+      "outputs": [
+        "performance.json",
+        "performance-review.md"
+      ],
+      "reviewer": "strategist",
+      "source_ids": [
+        "GA-ATTRIBUTION"
+      ],
+      "handoff_to": [
+        "strategist",
+        "finance-director"
+      ]
+    },
+    {
+      "name": "bayti-workflow-engineering",
+      "path": ".agents/skills/bayti-workflow-engineering/SKILL.md",
+      "roles": [
+        "engineer"
+      ],
+      "knowledge": [
+        "knowledge/roles/engineer.md"
+      ],
+      "outputs": [
+        "tool.py",
+        "test-report.json",
+        "engineering-handoff.md"
+      ],
+      "reviewer": "qa",
+      "source_ids": [
+        "PY-DECIMAL",
+        "OPENAI-EVAL"
+      ],
+      "handoff_to": [
+        "qa"
+      ]
+    },
+    {
+      "name": "bayti-agency-unit-economics",
+      "path": ".agents/skills/bayti-agency-unit-economics/SKILL.md",
+      "roles": [
+        "finance-director"
+      ],
+      "knowledge": [
+        "knowledge/roles/finance-director.md"
+      ],
+      "outputs": [
+        "agency-margin.json",
+        "finance-review.md"
+      ],
+      "reviewer": "manager",
+      "source_ids": [
+        "PY-DECIMAL",
+        "BAYTI-AGREEMENT"
+      ],
+      "handoff_to": [
+        "manager"
+      ]
+    },
+    {
+      "name": "bayti-monthly-billing",
+      "path": ".agents/skills/bayti-monthly-billing/SKILL.md",
+      "roles": [
+        "bookkeeper"
+      ],
+      "knowledge": [
+        "knowledge/roles/bookkeeper.md"
+      ],
+      "outputs": [
+        "invoice-draft.json",
+        "expense-review.csv",
+        "billing-handoff.md"
+      ],
+      "reviewer": "finance-director",
+      "source_ids": [
+        "PY-DECIMAL",
+        "BAYTI-AGREEMENT"
+      ],
+      "handoff_to": [
+        "receivables",
+        "finance-director"
+      ]
+    },
+    {
+      "name": "bayti-payment-reconciliation",
+      "path": ".agents/skills/bayti-payment-reconciliation/SKILL.md",
+      "roles": [
+        "receivables"
+      ],
+      "knowledge": [
+        "knowledge/roles/receivables.md"
+      ],
+      "outputs": [
+        "receivables.json",
+        "reconciliation.md"
+      ],
+      "reviewer": "finance-director",
+      "source_ids": [
+        "PY-DECIMAL",
+        "BAYTI-AGREEMENT"
+      ],
+      "handoff_to": [
+        "bookkeeper",
+        "finance-director"
+      ]
+    },
+    {
+      "name": "bayti-agency-quality-gates",
+      "path": ".agents/skills/bayti-agency-quality-gates/SKILL.md",
+      "roles": [
+        "qa"
+      ],
+      "knowledge": [
+        "knowledge/roles/qa.md"
+      ],
+      "outputs": [
+        "acceptance-report.md",
+        "role-scorecard.json",
+        "defects.json"
+      ],
+      "reviewer": "manager",
+      "source_ids": [
+        "OPENAI-EVAL",
+        "BAYTI-CATALOG",
+        "BAYTI-AGREEMENT"
+      ],
+      "handoff_to": [
+        "manager"
       ]
     }
   ]

@@ -11,3 +11,9 @@
 - التسليم التالي إلى: writer,director,designer,motion-designer.
 
 اقرأ AGENTS.md وknowledge/bayti-brief.md وknowledge/operating-agreement.json ثم المراجع اللازمة للمهمة فقط. سجّل النتيجة باستخدام templates/handoff.md، واذكر الأدلة والناقص والخطوة التالية. استعمل المهارة المناسبة من knowledge/skills.json، واقرأ ملفها أولًا. حافظ على التفويض الحالي ولا تجعل إعداد الدور إذن نشر أو صرف أو إرسال أو تحصيل.
+
+## الاختصاص والموارد
+
+- المهارة الأساسية: bayti-creative-direction، اقرأ .agents/skills/bayti-creative-direction/SKILL.md.
+- المعرفة: knowledge/roles/creative-director.md.
+- عقد التسليم: contracts/handoff.md.

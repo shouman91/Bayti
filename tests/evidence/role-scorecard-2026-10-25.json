@@ -1,0 +1,710 @@
+{
+  "job_id": "BAYTI-EVAL-20261025",
+  "date": "2026-10-25",
+  "timezone": "Asia/Amman",
+  "scope": "local independent department execution and QA; original media and full logs stay private",
+  "all_22_executed_with_concrete_outputs": true,
+  "all_22_full_acceptance": false,
+  "counts": {
+    "pass": 21,
+    "revise": 1,
+    "blocked": 0
+  },
+  "core_unit_tests_passed": 40,
+  "skills_validated": 28,
+  "role_knowledge_files": 22,
+  "activation": "manual_file_read",
+  "live_platform_tested": false,
+  "cloud_tested": false,
+  "automatic_background_work": false,
+  "roles": [
+    {
+      "role": "manager",
+      "name": "نديم",
+      "primary_skill": "bayti-agency-lead",
+      "skill_path": ".agents/skills/bayti-agency-lead/SKILL.md",
+      "knowledge_path": "knowledge/roles/manager.md",
+      "verdict": "pass",
+      "next_recipients": [
+        "account-manager",
+        "production",
+        "qa"
+      ],
+      "example_artifacts": [
+        {
+          "local_path_not_published": "private/evaluation/run1/brief/job-brief.md",
+          "sha256": "6e80fbc03b2f134ae375b1f91f8de087645ab8b3ab79847fee7b155d5a98a59b",
+          "bytes": 3043
+        },
+        {
+          "local_path_not_published": "private/evaluation/run1/brief/decisions.json",
+          "sha256": "20a7f83cfb7136a5d97e57d61f0e79c7da77f7720af9d2d8d28f1e2832482ae0",
+          "bytes": 1561
+        },
+        {
+          "local_path_not_published": "private/evaluation/run1/brief/final-delivery.md",
+          "sha256": "1e0e5825887ad8ef49790c756d4502a8ffb21b302a6aab12ad9fdc156fa96e31",
+          "bytes": 2659
+        }
+      ]
+    },
+    {
+      "role": "account-manager",
+      "name": "دانا",
+      "primary_skill": "bayti-account-planning",
+      "skill_path": ".agents/skills/bayti-account-planning/SKILL.md",
+      "knowledge_path": "knowledge/roles/account-manager.md",
+      "verdict": "pass",
+      "next_recipients": [
+        "researcher"
+      ],
+      "example_artifacts": [
+        {
+          "local_path_not_published": "private/evaluation/run1/brief/task-board.csv",
+          "sha256": "2899402405d299d31118c7245b36e0c2e5acf4de5a49c64596d1ed6251676533",
+          "bytes": 1083
+        },
+        {
+          "local_path_not_published": "private/evaluation/run1/brief/scope-and-capacity.md",
+          "sha256": "c5dd60f29687f687e3931aa3c4cf15360bfc292d159ea56dbf630fe6a44bb079",
+          "bytes": 2200
+        },
+        {
+          "local_path_not_published": "private/evaluation/run1/brief/change-log.md",
+          "sha256": "1eca928ed55bc54f27fd5597e7afc95656dca9a7da77f6e141c101965761c614",
+          "bytes": 2191
+        }
+      ]
+    },
+    {
+      "role": "strategist",
+      "name": "ليث",
+      "primary_skill": "bayti-growth-strategy",
+      "skill_path": ".agents/skills/bayti-growth-strategy/SKILL.md",
+      "knowledge_path": "knowledge/roles/strategist.md",
+      "verdict": "pass",
+      "next_recipients": [
+        "writer",
+        "media-buyer"
+      ],
+      "example_artifacts": [
+        {
+          "local_path_not_published": "private/evaluation/run1/brief/strategy.md",
+          "sha256": "de694fe2eedc26cb60cfa3ccaae8030a52d2b63f4a1ac8d6b6cdb4eba3be3e60",
+          "bytes": 3021
+        },
+        {
+          "local_path_not_published": "private/evaluation/run1/brief/experiment.json",
+          "sha256": "d4724529eb3ae022b2956bdbb2366dded565ae73066a06bea753d2804cbe35c9",
+          "bytes": 1730
+        },
+        {
+          "local_path_not_published": "private/evaluation/run1/brief/experiment-v2.json",
+          "sha256": "efb472a11fda31d5cf4f94c6d8f04542b63e4d4e8418b55d5c99e9043fee6ab4",
+          "bytes": 17163
+        },
+        {
+          "local_path_not_published": "private/evaluation/run1/brief/strategist-handoff-v2.md",
+          "sha256": "b740eb3ac71ac5a2ca16b3de39f3ae970d3c00dd98bd4476f701110a932e6a52",
+          "bytes": 2747
+        }
+      ]
+    },
+    {
+      "role": "researcher",
+      "name": "ليان",
+      "primary_skill": "bayti-source-research",
+      "skill_path": ".agents/skills/bayti-source-research/SKILL.md",
+      "knowledge_path": "knowledge/roles/researcher.md",
+      "verdict": "pass",
+      "next_recipients": [
+        "catalog-manager",
+        "strategist"
+      ],
+      "example_artifacts": [
+        {
+          "local_path_not_published": "private/evaluation/run1/brief/claims.csv",
+          "sha256": "74743b5d109e0c1b7cfb5fc75c75987d349dc13688a1add28df3e60a74c7a2b1",
+          "bytes": 1931
+        },
+        {
+          "local_path_not_published": "private/evaluation/run1/brief/research-handoff.md",
+          "sha256": "e5d9225e204ccc97a4f8b2564c8a35feb51d5dc1af5dba2513922f27c8c50b1b",
+          "bytes": 2069
+        },
+        {
+          "local_path_not_published": "private/evaluation/run1/brief/catalog-page43.png",
+          "sha256": "1551f4ea47f2f5e2d55d05b636958cf84fd3da49fca669d582d4da87f02e132e",
+          "bytes": 723760
+        }
+      ]
+    },
+    {
+      "role": "catalog-manager",
+      "name": "يوسف",
+      "primary_skill": "bayti-product-verification",
+      "skill_path": ".agents/skills/bayti-product-verification/SKILL.md",
+      "knowledge_path": "knowledge/roles/catalog-manager.md",
+      "verdict": "pass",
+      "next_recipients": [
+        "writer",
+        "production",
+        "publisher"
+      ],
+      "example_artifacts": [
+        {
+          "local_path_not_published": "private/evaluation/run1/brief/product-card.json",
+          "sha256": "9663f5ddac54dbe8058f012d8a1cd8de22fbe1586985c03eff427fec374cb4bc",
+          "bytes": 1674
+        },
+        {
+          "local_path_not_published": "private/evaluation/run1/brief/product-card-v2.json",
+          "sha256": "7b47dd3bb68d69a66c68ce4dcadadcf5eaa2516c0e29df4d65b4416c00ced83d",
+          "bytes": 1869
+        },
+        {
+          "local_path_not_published": "private/evaluation/run1/brief/product-identity.json",
+          "sha256": "8a9431131c716d9395a08f71e73816f5f96ed57b0811c2bc8b315118e71dd3c3",
+          "bytes": 1327
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "name": "عمر",
+      "primary_skill": "bayti-performance-copy",
+      "skill_path": ".agents/skills/bayti-performance-copy/SKILL.md",
+      "knowledge_path": "knowledge/roles/writer.md",
+      "verdict": "pass",
+      "next_recipients": [
+        "creative-director",
+        "director",
+        "production",
+        "publisher"
+      ],
+      "example_artifacts": [
+        {
+          "local_path_not_published": "private/evaluation/run1/brief/script-v2.md",
+          "sha256": "23a62e836eded2495485cd109ad70833a4b698a4c384075bb96bbb88d6ce1e82",
+          "bytes": 2966
+        },
+        {
+          "local_path_not_published": "private/evaluation/run1/brief/caption-v2.md",
+          "sha256": "a88279ad893e501a0cd92e12799466bd7cfe9302f2e39022a3002726d6e1ca54",
+          "bytes": 1157
+        },
+        {
+          "local_path_not_published": "private/evaluation/run1/brief/claim-map-v2.json",
+          "sha256": "79176581bd9ffd76336a381d405d7a922031edf2b91ce17e63d75c1c0ea03ef8",
+          "bytes": 1054
+        }
+      ]
+    },
+    {
+      "role": "creative-director",
+      "name": "رامي",
+      "primary_skill": "bayti-creative-direction",
+      "skill_path": ".agents/skills/bayti-creative-direction/SKILL.md",
+      "knowledge_path": "knowledge/roles/creative-director.md",
+      "verdict": "pass",
+      "next_recipients": [
+        "director",
+        "production"
+      ],
+      "example_artifacts": [
+        {
+          "local_path_not_published": "private/evaluation/run1/brief/creative-treatment.md",
+          "sha256": "d688795ebed6c369b2046938513d88d631e0bd3e59a6bde3da7e333b5b4b1960",
+          "bytes": 3170
+        },
+        {
+          "local_path_not_published": "private/evaluation/run1/brief/creative-review.md",
+          "sha256": "739af36ebf1e353d042316faa426f1dffb256acc3c97ac3502df7d531e22377e",
+          "bytes": 1006
+        },
+        {
+          "local_path_not_published": "private/evaluation/run1/brief/director-review-v2.md",
+          "sha256": "e5a694357eeb054b091aa92073119c9662e91114844852042a06f82234630a28",
+          "bytes": 2165
+        }
+      ]
+    },
+    {
+      "role": "director",
+      "name": "سامر",
+      "primary_skill": "bayti-shoot-planning",
+      "skill_path": ".agents/skills/bayti-shoot-planning/SKILL.md",
+      "knowledge_path": "knowledge/roles/director.md",
+      "verdict": "pass",
+      "next_recipients": [
+        "photographer",
+        "editor"
+      ],
+      "example_artifacts": [
+        {
+          "local_path_not_published": "private/evaluation/run1/brief/shot-list.csv",
+          "sha256": "82fb8f7032e669d8b6aaea0b11a7651d5cec6663dc73689b54bbea10f977fd1c",
+          "bytes": 1459
+        },
+        {
+          "local_path_not_published": "private/evaluation/run1/brief/presenter-notes.md",
+          "sha256": "b6d6cf22cd8e917321a021f87b3cc34aa0c8b1ff6418b58fc982211ede25a120",
+          "bytes": 2824
+        },
+        {
+          "local_path_not_published": "private/evaluation/run1/brief/edit-map.json",
+          "sha256": "ac78ab73d36619e73bb35e6f71fd11971df9d76eb04eb00b2c98087d1d21990b",
+          "bytes": 1390
+        },
+        {
+          "local_path_not_published": "private/evaluation/run1/brief/director-review-v2.md",
+          "sha256": "e5a694357eeb054b091aa92073119c9662e91114844852042a06f82234630a28",
+          "bytes": 2165
+        }
+      ]
+    },
+    {
+      "role": "photographer",
+      "name": "حسام",
+      "primary_skill": "bayti-asset-preflight",
+      "skill_path": ".agents/skills/bayti-asset-preflight/SKILL.md",
+      "knowledge_path": "knowledge/roles/photographer.md",
+      "verdict": "pass",
+      "next_recipients": [
+        "catalog-manager",
+        "editor",
+        "designer"
+      ],
+      "example_artifacts": [
+        {
+          "local_path_not_published": "private/evaluation/run1/brief/asset-manifest.json",
+          "sha256": "44dcc4b40715c3fa0b1ef97fcd48866f9a3d91d9d0bb36657d45153270d26436",
+          "bytes": 85418
+        },
+        {
+          "local_path_not_published": "private/evaluation/run1/brief/asset-review.md",
+          "sha256": "6bda560ec8adeef718c217b8b5e3173be20ffd8fa7a348906d0a7f56eb4a73cc",
+          "bytes": 4135
+        },
+        {
+          "local_path_not_published": "private/evaluation/run1/brief/contact-sheet.jpg",
+          "sha256": "e0f1379637de3a319746bca56d86c9fa9bbbfeaca56b0207f26d73d24284e488",
+          "bytes": 723448
+        },
+        {
+          "local_path_not_published": "private/evaluation/run1/brief/product-identity.json",
+          "sha256": "8a9431131c716d9395a08f71e73816f5f96ed57b0811c2bc8b315118e71dd3c3",
+          "bytes": 1327
+        }
+      ]
+    },
+    {
+      "role": "editor",
+      "name": "زيد",
+      "primary_skill": "bayti-video-delivery",
+      "skill_path": ".agents/skills/bayti-video-delivery/SKILL.md",
+      "knowledge_path": "knowledge/roles/editor.md",
+      "verdict": "revise",
+      "next_recipients": [
+        "qa"
+      ],
+      "example_artifacts": [
+        {
+          "local_path_not_published": "private/evaluation/run1/production/review-cut.mp4",
+          "sha256": "a01b948e22332af02908c6b6fce7ccb768837ea701b95245863b0da8c4200912",
+          "bytes": 7099494
+        },
+        {
+          "local_path_not_published": "private/evaluation/run1/production/edit-decisions.json",
+          "sha256": "36ed9ae22e8bdd1a7442c3069c01df887e4315a492e601478c0651ab20740d95",
+          "bytes": 1820
+        },
+        {
+          "local_path_not_published": "private/evaluation/run1/production/export-probe.json",
+          "sha256": "f18ce3cb1224b14b746c22541222c8dfff2f14dfb2ae14a5a45e430a420ad71e",
+          "bytes": 2997
+        },
+        {
+          "local_path_not_published": "private/evaluation/run1/production/video-qa.md",
+          "sha256": "8179a5bebeb9d3f292d757263a6112704bc243bf84aa22d208be5ee3872e9e5f",
+          "bytes": 3642
+        }
+      ]
+    },
+    {
+      "role": "designer",
+      "name": "نور",
+      "primary_skill": "bayti-social-design",
+      "skill_path": ".agents/skills/bayti-social-design/SKILL.md",
+      "knowledge_path": "knowledge/roles/designer.md",
+      "verdict": "pass",
+      "next_recipients": [
+        "qa"
+      ],
+      "example_artifacts": [
+        {
+          "local_path_not_published": "private/evaluation/run1/production/social-source.html",
+          "sha256": "02f41f5b8c9601e341ca5d2d56e9f38d173c06a2e09a84b1c8a8fc92c3616a7e",
+          "bytes": 2751
+        },
+        {
+          "local_path_not_published": "private/evaluation/run1/production/social-preview.png",
+          "sha256": "7b609e80dc3077896b6dfa70a07e9d1bc30d17b553556953dd8e9c01ae202d81",
+          "bytes": 477933
+        },
+        {
+          "local_path_not_published": "private/evaluation/run1/production/design-qa.md",
+          "sha256": "338f0c46acf4d81f276487623df94560e38c82d1fc02f3c76af238054666a3f0",
+          "bytes": 2344
+        }
+      ]
+    },
+    {
+      "role": "motion-designer",
+      "name": "مالك",
+      "primary_skill": "bayti-product-motion",
+      "skill_path": ".agents/skills/bayti-product-motion/SKILL.md",
+      "knowledge_path": "knowledge/roles/motion-designer.md",
+      "verdict": "pass",
+      "next_recipients": [
+        "editor",
+        "qa"
+      ],
+      "example_artifacts": [
+        {
+          "local_path_not_published": "private/evaluation/run1/production/motion-source.html",
+          "sha256": "241a48506686a5a51e044510a2a0c034d7596dc718b83e564c028947868aa344",
+          "bytes": 3646
+        },
+        {
+          "local_path_not_published": "private/evaluation/run1/production/motion-cues.json",
+          "sha256": "b43277077daba89d9ade4b2f518cea53660c5de70b3cb9aee5a46cda97a77938",
+          "bytes": 1680
+        },
+        {
+          "local_path_not_published": "private/evaluation/run1/production/motion-preview.png",
+          "sha256": "a581be661c87fdc60df75997c6c5b0f642ce8fdc2bf46a7f2860fd12db6d630b",
+          "bytes": 560344
+        }
+      ]
+    },
+    {
+      "role": "publisher",
+      "name": "ميرا",
+      "primary_skill": "bayti-publishing-pack",
+      "skill_path": ".agents/skills/bayti-publishing-pack/SKILL.md",
+      "knowledge_path": "knowledge/roles/publisher.md",
+      "verdict": "pass",
+      "next_recipients": [
+        "community",
+        "qa"
+      ],
+      "example_artifacts": [
+        {
+          "local_path_not_published": "private/evaluation/run1/ops/publishing-pack.md",
+          "sha256": "3f4d7d7398ce19ff44e4ed4f92d907ee854c3b17b72d6d4cbacf7d176de7c35e",
+          "bytes": 5197
+        },
+        {
+          "local_path_not_published": "private/evaluation/run1/ops/platform-posts.json",
+          "sha256": "265319a386fdc66c874db0c03748c01ecbd428e5643f36dcd0edd4190aabcede",
+          "bytes": 11636
+        },
+        {
+          "local_path_not_published": "private/evaluation/run1/ops/publishing-readiness.json",
+          "sha256": "3db5b49f6f455e4b51e1ce61a8c495a9c21047eb1dd3fef335861bbc831f2c62",
+          "bytes": 1827
+        },
+        {
+          "local_path_not_published": "private/evaluation/run1/ops/production-receipt.json",
+          "sha256": "9e8722d42314dcb0961bc0fcc3ae4a4afad21c790d9b9b7ebb14b4e5d6c2050a",
+          "bytes": 14140
+        },
+        {
+          "local_path_not_published": "private/evaluation/run1/ops/release-review.md",
+          "sha256": "62011065f82e546cf8bba07c39c1f350523ad8d6b7edf2fddc68d7db98a8450c",
+          "bytes": 3221
+        }
+      ]
+    },
+    {
+      "role": "community",
+      "name": "هبة",
+      "primary_skill": "bayti-customer-replies",
+      "skill_path": ".agents/skills/bayti-customer-replies/SKILL.md",
+      "knowledge_path": "knowledge/roles/community.md",
+      "verdict": "pass",
+      "next_recipients": [
+        "sales-coordinator"
+      ],
+      "example_artifacts": [
+        {
+          "local_path_not_published": "private/evaluation/run1/ops/reply-drafts.md",
+          "sha256": "2a5c3b7d0646516b996962989e022d84361b0684544b687129c2aecbd3f09349",
+          "bytes": 2619
+        },
+        {
+          "local_path_not_published": "private/evaluation/run1/ops/objections.csv",
+          "sha256": "d2ffc850cbd4eb642a141a8d3587008d1be756ec2f00dee8ee9d4a7fe14341ff",
+          "bytes": 764
+        },
+        {
+          "local_path_not_published": "private/evaluation/run1/ops/customer-handoff.json",
+          "sha256": "1ca64333ec56505334292e62dbe19f09ddb8b3b66912ec5bcbd49a1d41561b23",
+          "bytes": 1138
+        }
+      ]
+    },
+    {
+      "role": "sales-coordinator",
+      "name": "أحمد",
+      "primary_skill": "bayti-crm-followup",
+      "skill_path": ".agents/skills/bayti-crm-followup/SKILL.md",
+      "knowledge_path": "knowledge/roles/sales-coordinator.md",
+      "verdict": "pass",
+      "next_recipients": [
+        "analyst",
+        "bookkeeper"
+      ],
+      "example_artifacts": [
+        {
+          "local_path_not_published": "private/evaluation/run1/ops/crm-clean.json",
+          "sha256": "0c64213fab66f13b04c3adc2b7afdfaa4618d57f37e0eafb349d3f863d81dd1e",
+          "bytes": 1371
+        },
+        {
+          "local_path_not_published": "private/evaluation/run1/ops/followup-queue.csv",
+          "sha256": "a79bf2860c6acc56fc1402935cfa53002044728660fcfb598ca6b133225b8b81",
+          "bytes": 334
+        },
+        {
+          "local_path_not_published": "private/evaluation/run1/ops/sales-handoff.md",
+          "sha256": "cd21ae2231fb8a57e80eb4db96755edc10d22735f07e04f3adca93f196ee433c",
+          "bytes": 2072
+        }
+      ]
+    },
+    {
+      "role": "media-buyer",
+      "name": "كريم",
+      "primary_skill": "bayti-paid-media-operations",
+      "skill_path": ".agents/skills/bayti-paid-media-operations/SKILL.md",
+      "knowledge_path": "knowledge/roles/media-buyer.md",
+      "verdict": "pass",
+      "next_recipients": [
+        "analyst",
+        "qa"
+      ],
+      "example_artifacts": [
+        {
+          "local_path_not_published": "private/evaluation/run1/ops/paid-media-plan.md",
+          "sha256": "e7c005f04762f2607e67071abc9808b67c18bcc5f081a4797babe13c6736c394",
+          "bytes": 7072
+        },
+        {
+          "local_path_not_published": "private/evaluation/run1/ops/paid-media-plan-v2.json",
+          "sha256": "169de852a99b0675a66f41114ba76d6c7c0a4285653704af98500e58fa4bf93e",
+          "bytes": 12588
+        },
+        {
+          "local_path_not_published": "private/evaluation/run1/ops/paid-media-change-review.md",
+          "sha256": "3b585719734ca13561a90b704431efbac70e4b139301c9b7e3f703c851cbdfb2",
+          "bytes": 1983
+        },
+        {
+          "local_path_not_published": "private/evaluation/run1/ops/campaign-audit.json",
+          "sha256": "a80fb741607a22c551a05b953c7a5e29d1a8751d63d25f2e709427004e84a1e2",
+          "bytes": 2671
+        },
+        {
+          "local_path_not_published": "private/evaluation/run1/ops/budget-check.json",
+          "sha256": "04dfa3887cd75828496059f10c0db27710c2199ba28af0841fee938800a67697",
+          "bytes": 1083
+        }
+      ]
+    },
+    {
+      "role": "analyst",
+      "name": "سارة",
+      "primary_skill": "bayti-performance-analysis",
+      "skill_path": ".agents/skills/bayti-performance-analysis/SKILL.md",
+      "knowledge_path": "knowledge/roles/analyst.md",
+      "verdict": "pass",
+      "next_recipients": [
+        "finance-director",
+        "qa"
+      ],
+      "example_artifacts": [
+        {
+          "local_path_not_published": "private/evaluation/run1/ops/performance.json",
+          "sha256": "3e627b8dda4c2bf7324fac21ba7de11463c748041cb53566246680a8ddedc114",
+          "bytes": 4218
+        },
+        {
+          "local_path_not_published": "private/evaluation/run1/ops/performance-review.md",
+          "sha256": "a6c60d36b7503cebe207157049f69e3463a98e19bd1ed0550b27d3d3e4b2cfea",
+          "bytes": 3417
+        }
+      ]
+    },
+    {
+      "role": "engineer",
+      "name": "آدم",
+      "primary_skill": "bayti-workflow-engineering",
+      "skill_path": ".agents/skills/bayti-workflow-engineering/SKILL.md",
+      "knowledge_path": "knowledge/roles/engineer.md",
+      "verdict": "pass",
+      "next_recipients": [
+        "qa"
+      ],
+      "example_artifacts": [
+        {
+          "local_path_not_published": "private/evaluation/run1/production/tool.py",
+          "sha256": "50f78fb07469a5d441507316425fb439d198c04feacee0140b079c6c74db5165",
+          "bytes": 8994
+        },
+        {
+          "local_path_not_published": "private/evaluation/run1/production/test-report.json",
+          "sha256": "a3c5a50d0d2c9d4486eaf2b575bf24934e29cb952f73d6a7f13b3222d66d1e67",
+          "bytes": 4165
+        },
+        {
+          "local_path_not_published": "private/evaluation/run1/production/engineering-handoff.md",
+          "sha256": "90ca3cfbaa56ac7d43df0f087e6184dc9a04f52824cdc2c4cf20252157edbebe",
+          "bytes": 2548
+        },
+        {
+          "local_path_not_published": "private/evaluation/run1/production/render.cjs",
+          "sha256": "6478da23cf8ce10cea5250495774a91ca5b5a5fa7e56840486914c35b2b5ad93",
+          "bytes": 11740
+        }
+      ]
+    },
+    {
+      "role": "finance-director",
+      "name": "فادي",
+      "primary_skill": "bayti-agency-unit-economics",
+      "skill_path": ".agents/skills/bayti-agency-unit-economics/SKILL.md",
+      "knowledge_path": "knowledge/roles/finance-director.md",
+      "verdict": "pass",
+      "next_recipients": [
+        "bookkeeper",
+        "receivables",
+        "qa"
+      ],
+      "example_artifacts": [
+        {
+          "local_path_not_published": "private/evaluation/run1/ops/agency-margin.json",
+          "sha256": "e05a9108d0a8d58461cb9741cc035c20acae6b6cf0f698e5a4231815b341d7dd",
+          "bytes": 920
+        },
+        {
+          "local_path_not_published": "private/evaluation/run1/ops/finance-review.md",
+          "sha256": "731c395cbb8f41edf73ca7b9bb454ace0f3f8d9e409301e08d17e3f68d9c386b",
+          "bytes": 2073
+        },
+        {
+          "local_path_not_published": "private/evaluation/run1/ops/finance-close-review.md",
+          "sha256": "a8f5e7f58836aefe46e58f8f7417d6ba30bbea9ffadbb378a93cf9d37629cfe3",
+          "bytes": 1471
+        }
+      ]
+    },
+    {
+      "role": "bookkeeper",
+      "name": "ريم",
+      "primary_skill": "bayti-monthly-billing",
+      "skill_path": ".agents/skills/bayti-monthly-billing/SKILL.md",
+      "knowledge_path": "knowledge/roles/bookkeeper.md",
+      "verdict": "pass",
+      "next_recipients": [
+        "receivables",
+        "finance-director"
+      ],
+      "example_artifacts": [
+        {
+          "local_path_not_published": "private/evaluation/run1/ops/invoice-draft.json",
+          "sha256": "509f04e1cf52561a9f5c590a2c03b95d0044520906d6421480b96579bead5828",
+          "bytes": 871
+        },
+        {
+          "local_path_not_published": "private/evaluation/run1/ops/expense-review.csv",
+          "sha256": "6be0508cae8d45495e1398f020607e2e4c3880ddfa463e5f9097003796cd17f6",
+          "bytes": 542
+        },
+        {
+          "local_path_not_published": "private/evaluation/run1/ops/billing-handoff.md",
+          "sha256": "fdb2b020e8c463a82f8741eb8e4754a5b8dec090f6f9ae55117c9551a7e73cca",
+          "bytes": 1901
+        },
+        {
+          "local_path_not_published": "private/evaluation/run1/ops/finance-command-results.json",
+          "sha256": "f861a48fa2eff0e44ea9ad1dc43d8e9e19dbbf8dcf302c45d1c5bf8c82115031",
+          "bytes": 1837
+        }
+      ]
+    },
+    {
+      "role": "receivables",
+      "name": "باسل",
+      "primary_skill": "bayti-payment-reconciliation",
+      "skill_path": ".agents/skills/bayti-payment-reconciliation/SKILL.md",
+      "knowledge_path": "knowledge/roles/receivables.md",
+      "verdict": "pass",
+      "next_recipients": [
+        "finance-director",
+        "qa"
+      ],
+      "example_artifacts": [
+        {
+          "local_path_not_published": "private/evaluation/run1/ops/receivables.json",
+          "sha256": "e64863f41524f6a13e9b57606fad84e3893886a6c7b383978f57f031e0eedf7b",
+          "bytes": 963
+        },
+        {
+          "local_path_not_published": "private/evaluation/run1/ops/reconciliation.md",
+          "sha256": "aa06c315a60983292920dbd90a1d1247a06915248cdfcf160e46ff4dd575399f",
+          "bytes": 1676
+        }
+      ]
+    },
+    {
+      "role": "qa",
+      "name": "رنا",
+      "primary_skill": "bayti-agency-quality-gates",
+      "skill_path": ".agents/skills/bayti-agency-quality-gates/SKILL.md",
+      "knowledge_path": "knowledge/roles/qa.md",
+      "verdict": "pass",
+      "next_recipients": [
+        "manager"
+      ],
+      "example_artifacts": [
+        {
+          "local_path_not_published": "private/evaluation/run1/qa/acceptance-report.md",
+          "sha256": "e538c2b07e34d3a2e9f68bf5169dba0fee829ca6d86044ea735a82d0c014cf81",
+          "bytes": 12566
+        },
+        {
+          "local_path_not_published": "private/evaluation/run1/qa/role-scorecard.json",
+          "sha256": "1276f5cbc0fcd2cd6a9c76dd8368f05936dd62cb0fe262caf43e04e364048593",
+          "bytes": 32765
+        },
+        {
+          "local_path_not_published": "private/evaluation/run1/qa/defects.json",
+          "sha256": "143ef8502ec3463bc47771760a0e202cdb4894200fab2c7afeb2cb324664a587",
+          "bytes": 5676
+        },
+        {
+          "local_path_not_published": "private/evaluation/run1/qa/independent-checks.json",
+          "sha256": "05e65fb2b0420ef2bd819f3d3ea1658e6495c2a1e4c552f037a8aa034c998bd4",
+          "bytes": 43019
+        },
+        {
+          "local_path_not_published": "private/evaluation/run1/qa/automated-checks.json",
+          "sha256": "239584e0d058ae287d8f8ae9df629abd2eeb8a2af22affb53be7c770544f1674",
+          "bytes": 5858
+        }
+      ]
+    }
+  ]
+}

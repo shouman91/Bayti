@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "client": "BAYTI",
   "contact": "manager",
   "contact_name": "نديم",
@@ -14,7 +14,14 @@
       "reports_to": null,
       "profile": "employees/manager.md",
       "identity": "AI role",
-      "experience_standard": "25+ years senior professional judgment; not a biographical claim"
+      "experience_standard": "25+ years senior professional judgment; not a biographical claim",
+      "primary_skill": "bayti-agency-lead",
+      "knowledge_path": "knowledge/roles/manager.md",
+      "deliverables": [
+        "job-brief.md",
+        "decisions.json",
+        "final-delivery.md"
+      ]
     },
     {
       "id": "account-manager",
@@ -24,7 +31,14 @@
       "reports_to": "manager",
       "profile": "employees/account-manager.md",
       "identity": "AI role",
-      "experience_standard": "25+ years senior professional judgment; not a biographical claim"
+      "experience_standard": "25+ years senior professional judgment; not a biographical claim",
+      "primary_skill": "bayti-account-planning",
+      "knowledge_path": "knowledge/roles/account-manager.md",
+      "deliverables": [
+        "task-board.csv",
+        "scope-and-capacity.md",
+        "change-log.md"
+      ]
     },
     {
       "id": "strategist",
@@ -34,7 +48,13 @@
       "reports_to": "manager",
       "profile": "employees/strategist.md",
       "identity": "AI role",
-      "experience_standard": "25+ years senior professional judgment; not a biographical claim"
+      "experience_standard": "25+ years senior professional judgment; not a biographical claim",
+      "primary_skill": "bayti-growth-strategy",
+      "knowledge_path": "knowledge/roles/strategist.md",
+      "deliverables": [
+        "strategy.md",
+        "experiment.json"
+      ]
     },
     {
       "id": "researcher",
@@ -44,7 +64,13 @@
       "reports_to": "strategist",
       "profile": "employees/researcher.md",
       "identity": "AI role",
-      "experience_standard": "25+ years senior professional judgment; not a biographical claim"
+      "experience_standard": "25+ years senior professional judgment; not a biographical claim",
+      "primary_skill": "bayti-source-research",
+      "knowledge_path": "knowledge/roles/researcher.md",
+      "deliverables": [
+        "claims.csv",
+        "research-handoff.md"
+      ]
     },
     {
       "id": "catalog-manager",
@@ -54,7 +80,14 @@
       "reports_to": "manager",
       "profile": "employees/catalog-manager.md",
       "identity": "AI role",
-      "experience_standard": "25+ years senior professional judgment; not a biographical claim"
+      "experience_standard": "25+ years senior professional judgment; not a biographical claim",
+      "primary_skill": "bayti-product-verification",
+      "knowledge_path": "knowledge/roles/catalog-manager.md",
+      "deliverables": [
+        "product-card.json",
+        "product-card.md",
+        "unverified-claims.md"
+      ]
     },
     {
       "id": "writer",
@@ -64,7 +97,14 @@
       "reports_to": "creative-director",
       "profile": "employees/writer.md",
       "identity": "AI role",
-      "experience_standard": "25+ years senior professional judgment; not a biographical claim"
+      "experience_standard": "25+ years senior professional judgment; not a biographical claim",
+      "primary_skill": "bayti-performance-copy",
+      "knowledge_path": "knowledge/roles/writer.md",
+      "deliverables": [
+        "script.md",
+        "caption.md",
+        "claim-map.json"
+      ]
     },
     {
       "id": "creative-director",
@@ -74,7 +114,13 @@
       "reports_to": "manager",
       "profile": "employees/creative-director.md",
       "identity": "AI role",
-      "experience_standard": "25+ years senior professional judgment; not a biographical claim"
+      "experience_standard": "25+ years senior professional judgment; not a biographical claim",
+      "primary_skill": "bayti-creative-direction",
+      "knowledge_path": "knowledge/roles/creative-director.md",
+      "deliverables": [
+        "creative-treatment.md",
+        "creative-review.md"
+      ]
     },
     {
       "id": "director",
@@ -84,7 +130,14 @@
       "reports_to": "creative-director",
       "profile": "employees/director.md",
       "identity": "AI role",
-      "experience_standard": "25+ years senior professional judgment; not a biographical claim"
+      "experience_standard": "25+ years senior professional judgment; not a biographical claim",
+      "primary_skill": "bayti-shoot-planning",
+      "knowledge_path": "knowledge/roles/director.md",
+      "deliverables": [
+        "shot-list.csv",
+        "presenter-notes.md",
+        "edit-map.json"
+      ]
     },
     {
       "id": "photographer",
@@ -94,7 +147,14 @@
       "reports_to": "director",
       "profile": "employees/photographer.md",
       "identity": "AI role",
-      "experience_standard": "25+ years senior professional judgment; not a biographical claim"
+      "experience_standard": "25+ years senior professional judgment; not a biographical claim",
+      "primary_skill": "bayti-asset-preflight",
+      "knowledge_path": "knowledge/roles/photographer.md",
+      "deliverables": [
+        "asset-manifest.json",
+        "contact-sheet.jpg",
+        "asset-review.md"
+      ]
     },
     {
       "id": "editor",
@@ -104,7 +164,15 @@
       "reports_to": "director",
       "profile": "employees/editor.md",
       "identity": "AI role",
-      "experience_standard": "25+ years senior professional judgment; not a biographical claim"
+      "experience_standard": "25+ years senior professional judgment; not a biographical claim",
+      "primary_skill": "bayti-video-delivery",
+      "knowledge_path": "knowledge/roles/editor.md",
+      "deliverables": [
+        "review-cut.mp4",
+        "edit-decisions.json",
+        "export-probe.json",
+        "video-qa.md"
+      ]
     },
     {
       "id": "designer",
@@ -114,7 +182,14 @@
       "reports_to": "creative-director",
       "profile": "employees/designer.md",
       "identity": "AI role",
-      "experience_standard": "25+ years senior professional judgment; not a biographical claim"
+      "experience_standard": "25+ years senior professional judgment; not a biographical claim",
+      "primary_skill": "bayti-social-design",
+      "knowledge_path": "knowledge/roles/designer.md",
+      "deliverables": [
+        "social-source.html",
+        "social-preview.png",
+        "design-qa.md"
+      ]
     },
     {
       "id": "motion-designer",
@@ -124,7 +199,14 @@
       "reports_to": "creative-director",
       "profile": "employees/motion-designer.md",
       "identity": "AI role",
-      "experience_standard": "25+ years senior professional judgment; not a biographical claim"
+      "experience_standard": "25+ years senior professional judgment; not a biographical claim",
+      "primary_skill": "bayti-product-motion",
+      "knowledge_path": "knowledge/roles/motion-designer.md",
+      "deliverables": [
+        "motion-source.html",
+        "motion-cues.json",
+        "motion-preview.png"
+      ]
     },
     {
       "id": "publisher",
@@ -134,7 +216,14 @@
       "reports_to": "account-manager",
       "profile": "employees/publisher.md",
       "identity": "AI role",
-      "experience_standard": "25+ years senior professional judgment; not a biographical claim"
+      "experience_standard": "25+ years senior professional judgment; not a biographical claim",
+      "primary_skill": "bayti-publishing-pack",
+      "knowledge_path": "knowledge/roles/publisher.md",
+      "deliverables": [
+        "publishing-pack.md",
+        "platform-posts.json",
+        "publishing-readiness.json"
+      ]
     },
     {
       "id": "community",
@@ -144,7 +233,14 @@
       "reports_to": "account-manager",
       "profile": "employees/community.md",
       "identity": "AI role",
-      "experience_standard": "25+ years senior professional judgment; not a biographical claim"
+      "experience_standard": "25+ years senior professional judgment; not a biographical claim",
+      "primary_skill": "bayti-customer-replies",
+      "knowledge_path": "knowledge/roles/community.md",
+      "deliverables": [
+        "reply-drafts.md",
+        "objections.csv",
+        "customer-handoff.json"
+      ]
     },
     {
       "id": "sales-coordinator",
@@ -154,7 +250,14 @@
       "reports_to": "account-manager",
       "profile": "employees/sales-coordinator.md",
       "identity": "AI role",
-      "experience_standard": "25+ years senior professional judgment; not a biographical claim"
+      "experience_standard": "25+ years senior professional judgment; not a biographical claim",
+      "primary_skill": "bayti-crm-followup",
+      "knowledge_path": "knowledge/roles/sales-coordinator.md",
+      "deliverables": [
+        "crm-clean.json",
+        "followup-queue.csv",
+        "sales-handoff.md"
+      ]
     },
     {
       "id": "media-buyer",
@@ -164,7 +267,14 @@
       "reports_to": "strategist",
       "profile": "employees/media-buyer.md",
       "identity": "AI role",
-      "experience_standard": "25+ years senior professional judgment; not a biographical claim"
+      "experience_standard": "25+ years senior professional judgment; not a biographical claim",
+      "primary_skill": "bayti-paid-media-operations",
+      "knowledge_path": "knowledge/roles/media-buyer.md",
+      "deliverables": [
+        "paid-media-plan.md",
+        "campaign-audit.json",
+        "budget-check.json"
+      ]
     },
     {
       "id": "analyst",
@@ -174,7 +284,13 @@
       "reports_to": "strategist",
       "profile": "employees/analyst.md",
       "identity": "AI role",
-      "experience_standard": "25+ years senior professional judgment; not a biographical claim"
+      "experience_standard": "25+ years senior professional judgment; not a biographical claim",
+      "primary_skill": "bayti-performance-analysis",
+      "knowledge_path": "knowledge/roles/analyst.md",
+      "deliverables": [
+        "performance.json",
+        "performance-review.md"
+      ]
     },
     {
       "id": "engineer",
@@ -184,7 +300,14 @@
       "reports_to": "manager",
       "profile": "employees/engineer.md",
       "identity": "AI role",
-      "experience_standard": "25+ years senior professional judgment; not a biographical claim"
+      "experience_standard": "25+ years senior professional judgment; not a biographical claim",
+      "primary_skill": "bayti-workflow-engineering",
+      "knowledge_path": "knowledge/roles/engineer.md",
+      "deliverables": [
+        "tool.py",
+        "test-report.json",
+        "engineering-handoff.md"
+      ]
     },
     {
       "id": "finance-director",
@@ -194,7 +317,13 @@
       "reports_to": "manager",
       "profile": "employees/finance-director.md",
       "identity": "AI role",
-      "experience_standard": "25+ years senior professional judgment; not a biographical claim"
+      "experience_standard": "25+ years senior professional judgment; not a biographical claim",
+      "primary_skill": "bayti-agency-unit-economics",
+      "knowledge_path": "knowledge/roles/finance-director.md",
+      "deliverables": [
+        "agency-margin.json",
+        "finance-review.md"
+      ]
     },
     {
       "id": "bookkeeper",
@@ -204,7 +333,14 @@
       "reports_to": "finance-director",
       "profile": "employees/bookkeeper.md",
       "identity": "AI role",
-      "experience_standard": "25+ years senior professional judgment; not a biographical claim"
+      "experience_standard": "25+ years senior professional judgment; not a biographical claim",
+      "primary_skill": "bayti-monthly-billing",
+      "knowledge_path": "knowledge/roles/bookkeeper.md",
+      "deliverables": [
+        "invoice-draft.json",
+        "expense-review.csv",
+        "billing-handoff.md"
+      ]
     },
     {
       "id": "receivables",
@@ -214,7 +350,13 @@
       "reports_to": "finance-director",
       "profile": "employees/receivables.md",
       "identity": "AI role",
-      "experience_standard": "25+ years senior professional judgment; not a biographical claim"
+      "experience_standard": "25+ years senior professional judgment; not a biographical claim",
+      "primary_skill": "bayti-payment-reconciliation",
+      "knowledge_path": "knowledge/roles/receivables.md",
+      "deliverables": [
+        "receivables.json",
+        "reconciliation.md"
+      ]
     },
     {
       "id": "qa",
@@ -224,7 +366,14 @@
       "reports_to": "manager",
       "profile": "employees/qa.md",
       "identity": "AI role",
-      "experience_standard": "25+ years senior professional judgment; not a biographical claim"
+      "experience_standard": "25+ years senior professional judgment; not a biographical claim",
+      "primary_skill": "bayti-agency-quality-gates",
+      "knowledge_path": "knowledge/roles/qa.md",
+      "deliverables": [
+        "acceptance-report.md",
+        "role-scorecard.json",
+        "defects.json"
+      ]
     }
   ]
 }

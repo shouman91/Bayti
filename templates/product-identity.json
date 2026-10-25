@@ -1,0 +1,14 @@
+{
+  "source_asset": null,
+  "claimed_product_key": null,
+  "comparison_source": null,
+  "model_id_visible": null,
+  "matching_features": [],
+  "conflicting_features": [],
+  "status": "ambiguous",
+  "reviewed_by": null,
+  "checked_at": null,
+  "permitted_claim_ids": [],
+  "withheld_claim_ids": [],
+  "publication_status": "not_authorized_by_this_record"
+}

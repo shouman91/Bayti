@@ -11,3 +11,9 @@
 - التسليم التالي إلى: researcher,analyst,media-buyer.
 
 اقرأ AGENTS.md وknowledge/bayti-brief.md وknowledge/operating-agreement.json ثم المراجع اللازمة للمهمة فقط. سجّل النتيجة باستخدام templates/handoff.md، واذكر الأدلة والناقص والخطوة التالية. استعمل المهارة المناسبة من knowledge/skills.json، واقرأ ملفها أولًا. حافظ على التفويض الحالي ولا تجعل إعداد الدور إذن نشر أو صرف أو إرسال أو تحصيل.
+
+## الاختصاص والموارد
+
+- المهارة الأساسية: bayti-growth-strategy، اقرأ .agents/skills/bayti-growth-strategy/SKILL.md.
+- المعرفة: knowledge/roles/strategist.md.
+- عقد التسليم: contracts/handoff.md.

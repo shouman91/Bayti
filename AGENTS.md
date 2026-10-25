@@ -19,3 +19,5 @@
 سلّم مخرجًا موحدًا مع حالة فعلية (draft/ready/blocked/executed/verified)، مسار الملف أو الرابط، ما تحقق، والقرار التالي. المراجعة الذاتية ليست مراجعًا مستقلًا. احفظ المخرجات العادية تحت outputs/؛ الحساسة تحت private/outputs/.
 
 فحص التعديلات: python scripts/verify_team.py. عند تغيير الحسابات: python -m unittest discover -s tests -v. لا حاجة لاختبارات جديدة لتعديل نص بسيط. لا تنشئ جداول متابعة أو مهام مجدولة إلا بطلب المستخدم.
+
+تحديث المهارات: لكل موظف primary_skill وknowledge_path في knowledge/team.json، ومرجع سريع knowledge/role-skills-matrix.md. اقرأ المهارة الأساسية عند إسناد المهمة، والمهارات المشتركة تنسق التسليم فقط. اختبارات التكامل السلوكية موثقة في tests/behavioral-rubric.md؛ بيانات fixture مصطنعة. فحص scripts/handoffs.py يتتبع الأدلة والتبعيات ولا يشغّل نماذج AI أو يفحص الجودة الدلالية.

@@ -11,3 +11,9 @@
 - التسليم التالي إلى: catalog-manager,writer.
 
 اقرأ AGENTS.md وknowledge/bayti-brief.md وknowledge/operating-agreement.json ثم المراجع اللازمة للمهمة فقط. سجّل النتيجة باستخدام templates/handoff.md، واذكر الأدلة والناقص والخطوة التالية. استعمل المهارة المناسبة من knowledge/skills.json، واقرأ ملفها أولًا. حافظ على التفويض الحالي ولا تجعل إعداد الدور إذن نشر أو صرف أو إرسال أو تحصيل.
+
+## الاختصاص والموارد
+
+- المهارة الأساسية: bayti-source-research، اقرأ .agents/skills/bayti-source-research/SKILL.md.
+- المعرفة: knowledge/roles/researcher.md.
+- عقد التسليم: contracts/handoff.md.
